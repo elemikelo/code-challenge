@@ -1,0 +1,15 @@
+.Root{
+    display: flex;
+    align-items: center;
+    background-color: #8e44ad;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    padding: 1em;
+}
+
+.Logo{
+    margin: 0;
+    color: #c2fb15;
+    font-size: 14pt;
+}
