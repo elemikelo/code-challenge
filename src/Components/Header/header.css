@@ -1,7 +1,7 @@
 .Root{
     display: flex;
     align-items: center;
-    background-color: #8e44ad;
+    background-color: #9b59b6;
     align-items: center;
     justify-content: center;
     color: #fff;
@@ -9,7 +9,9 @@
 }
 
 .Logo{
+    font-family: 'Bangers', cursive;
     margin: 0;
     color: #c2fb15;
-    font-size: 14pt;
+    font-size: 32pt;
 }
+

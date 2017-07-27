@@ -3,7 +3,9 @@ import request from './request';
 import { ARTICLES_QUERY } from './queries';
 import './app.css'
 
+
 import Header from './Components/Header'
+import Footer from './Components/Footer'
 
 class App extends Component {
   // definition
@@ -29,6 +31,8 @@ class App extends Component {
 
         <h2>Billin code challenge</h2>
         <pre>{JSON.stringify(this.state.articles, null, 2)}</pre>
+
+        <Footer />
       </div>
     );
   }
