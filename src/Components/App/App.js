@@ -4,8 +4,8 @@ import { ARTICLES_QUERY } from './queries';
 import './app.css'
 
 
-import Header from './Components/Header'
-import Footer from './Components/Footer'
+import Header from '../Header'
+import Footer from '../Footer'
 
 class App extends Component {
   // definition

@@ -2,8 +2,9 @@ import Express from 'express';
 import GraphHTTP from 'express-graphql';
 import bodyParser from 'body-parser';
 import Schema from './schema';
+import config from './config'
 
-const APP_PORT = 4000;
+//const APP_PORT = 4000;
 
 const app = Express();
 
@@ -23,6 +24,6 @@ app.use('/graphql', GraphHTTP({
   pretty: true,
 }));
 
-app.listen(APP_PORT, () => {
-  console.log(`App listening on port ${APP_PORT}`); // eslint-disable-line no-console
+app.listen(config.port, () => {
+  console.log(`App listening on port ${config.port}`); // eslint-disable-line no-console
 });

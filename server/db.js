@@ -1,9 +1,10 @@
 import _ from 'lodash';
 import Faker from 'faker';
 import mongoose from 'mongoose';
+import config from './config';
 
-mongoose.connect('mongodb://localhost/billin');
-mongoose.set('debug', true);
+mongoose.connect(config.db);
+mongoose.set('debug', config.mongoStateDebug);
 
 const Article = mongoose.model('Article', {
   author: String,
