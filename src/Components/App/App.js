@@ -3,9 +3,10 @@ import request from './request';
 import { ARTICLES_QUERY } from './queries';
 import './app.css'
 
-
+// Components
 import Header from '../Header'
 import Footer from '../Footer'
+import ArticleList from '../ArticleList'
 
 class App extends Component {
   // definition
@@ -23,15 +24,13 @@ class App extends Component {
     });
   }
 
+
   // Renders
   render() {
     return (
       <div className="App">
         <Header />
-
-        <h2>Billin code challenge</h2>
-        <pre>{JSON.stringify(this.state.articles, null, 2)}</pre>
-
+        <ArticleList articles={this.state.articles} />
         <Footer />
       </div>
     );

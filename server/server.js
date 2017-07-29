@@ -4,8 +4,6 @@ import bodyParser from 'body-parser';
 import Schema from './schema';
 import config from './config'
 
-//const APP_PORT = 4000;
-
 const app = Express();
 
 app.use(bodyParser.urlencoded({ extended: false }));

@@ -1,0 +1,17 @@
+.article {
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  box-shadow: 0 0 15px #ccc;
+  padding: 10px;
+  margin: 10px;
+  width: calc(33% - 40px);
+
+}
+
+.article-excerpt {
+  font-style: italic;
+}
+
+.article-author {
+  margin: 0.5em 0 0 0;
+}
