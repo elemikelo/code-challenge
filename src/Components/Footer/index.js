@@ -1,5 +1,5 @@
-import React from 'react'
-import './footer.css'
+import React from 'react';
+import './footer.css';
 
 function Header() {
   return (
@@ -16,4 +16,4 @@ function Header() {
   )
 }
 
-export default Header 
+export default Header; 

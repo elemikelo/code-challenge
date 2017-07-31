@@ -4,7 +4,7 @@ import mongoose from 'mongoose';
 import config from './config';
 
 mongoose.connect(config.db);
-mongoose.set('debug', config.mongoStateDebug);
+mongoose.set(...config.mongoStateDebug);
 
 const Article = mongoose.model('Article', {
   author: String,

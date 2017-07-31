@@ -1,17 +1,18 @@
 .article {
-  border: 1px solid #eaeaea;
-  border-radius: 4px;
-  box-shadow: 0 0 15px #ccc;
-  padding: 10px;
-  margin: 10px;
-  width: calc(33% - 40px);
-
+  width: calc(25% - 35px);
+  border: 4px solid #eaeaea;
+  border-radius: 8px;
+  box-shadow: 0 0 7px #ccc;
+  padding: 12px;
+  margin: 8px;
 }
 
-.article-excerpt {
-  font-style: italic;
-}
-
-.article-author {
+.author-article {
+  text-align: center;
   margin: 0.5em 0 0 0;
+}
+
+
+.excerpt-article {
+  font-style: italic;
 }

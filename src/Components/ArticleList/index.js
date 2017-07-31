@@ -1,6 +1,6 @@
-import React from 'react'
-import './articleList.css'
-import Article from '../Article'
+import React from 'react';
+import './articleList.css';
+import Article from '../Article';
 
 function ArticleList(props) {
   return (
@@ -9,9 +9,8 @@ function ArticleList(props) {
         props.articles.map(article => {
           return (
             <Article
-              id={article.id}
-              author={article.author}
-              excerpt={article.excerpt}
+              key={article.id}
+              {...article}
             />
           )
         })
@@ -20,4 +19,4 @@ function ArticleList(props) {
   )
 }
 
-export default ArticleList
+export default ArticleList;
