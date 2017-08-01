@@ -24,8 +24,9 @@ class ArticleDetail extends Component {
     const { content } = this.state.article;
     const { tags } = this.state.article;
 
+
     return (
-      <article className="article-detail">
+      <article className="article-detail" >
         <h2 className="author-detail">{author}</h2>
         <div className="text-detail"> {content} </div>
         <div className="tag-detail">

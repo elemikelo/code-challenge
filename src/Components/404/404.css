@@ -1,0 +1,9 @@
+.div-notfound{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+   font-family: 'Bangers', cursive;
+    margin: 0;
+    color: #9b59b6;
+    font-size: 32pt;
+}

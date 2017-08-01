@@ -1,17 +1,38 @@
 .Root{
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    background-color: #9b59b6;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
+    background-color: #9b59b6; 
     padding: 1em;
 }
 
 .Logo{
-    font-family: 'Bangers', cursive;
-    margin: 0;
-    color: #c2fb15;
-    font-size: 32pt;
+  font-family: 'Bangers', cursive;
+  margin: 0;
+  color: #c2fb15;
+  font-size: 32pt;
+}
+
+
+.header-Link {
+  margin-left: 20px;
+  height: 40px;
+  width: 80px;
+  -webkit-transition: all .3s;
+  -moz-transition: all .3s;
+  transition: all .3s
+}
+
+.icon{
+  color: #c2fb15;
+  
+}
+
+.icon:active,
+.icon:focus,
+.icon:hover {
+  opacity: 0.4;
+	transition: 0.5s;
+  color: black;
 }
 
